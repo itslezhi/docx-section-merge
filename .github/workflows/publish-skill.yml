@@ -37,3 +37,5 @@ jobs:
           git add -A
           git commit -m "Publish docx-section-merge skill"
           git push --force origin HEAD:main
+
+# Retriggered to publish the verified latest package.
