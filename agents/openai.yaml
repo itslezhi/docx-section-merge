@@ -1,0 +1,14 @@
+interface:
+  display_name: 项目任务书子文档合并
+  short_description: 按模板逐章保留多稿内容，核验公式与图片位置，并批注模型判断
+  default_prompt: 使用 $docx-section-merge，按我指定的项目模板逐章合并子文档 Word，完整核对原文去向与技术对象，统一编号，并对你补写或调整的内容加真实
+    Word 批注。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
